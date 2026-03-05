@@ -1,0 +1,13 @@
+n_slices: 3
+slice_names: ["eMBB", "URLLC", "mMTC"]
+
+capacity_C: 1.0
+allocation_min: 0.05
+delta_step: 0.05
+
+delay_targets_ms: [50, 5, 200]
+
+traffic:
+  pattern: "burst"
+  T: 1000
+  seed: 0
