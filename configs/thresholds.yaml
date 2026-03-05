@@ -1,0 +1,3 @@
+load_low: 0.60
+load_high: 0.85
+jain_threshold: 0.90
