@@ -1,6 +1,6 @@
 # agentic-resource-framework
 
-An agentic (LLM) adaptive resource management framework for 5G network slicing, built around:
+An agentic (LLM-friendly) adaptive resource management framework for 5G network slicing, built around:
 - synthetic non-stationary traffic generation
 - a lightweight analytical (abstracted) network environment
 - symbolic state abstraction
