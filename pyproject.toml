@@ -1,0 +1,23 @@
+[project]
+name = "agentic-resource-framework"
+description = "An agentic (LLM-friendly) adaptive resource management framework for 5G network slicing."
+version = "0"
+readme = "README.md"
+
+requires-python = ">= 3.13"
+
+authors = [
+    {name = "Yahya Kerem Bozaslan", email = "bozaslan24@itu.edu.tr"}
+]
+maintainers = [
+    {name = "Yahya Kerem Bozaslan", email = "bozaslan24@itu.edu.tr"},
+    {name = "Mustafa Ergen", email = "mustafaergen@itu.edu.tr"}
+]
+
+keywords = ["5g", "agentic", "telecommunications", "network slicing", "slicing", "mobile network", "resource management", "llm"]
+
+[project.urls]
+Homepage = "https://github.com/YahyaKeremm/agentic-resource-framework/blob/main/README.md"
+Documentation = "https://github.com/YahyaKeremm/agentic-resource-framework/tree/main/docs"
+Repository = "https://github.com/YahyaKeremm/agentic-resource-framework.git"
+Issues = "https://github.com/YahyaKeremm/agentic-resource-framework/issues"
