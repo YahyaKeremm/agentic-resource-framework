@@ -99,7 +99,7 @@ def periodic(T: int, bases: list, seed: int, amp: list = None, freqs: list = Non
     
     return np.array(d_t)
 
-def drifting(T: int, bases: list, seed: int) -> npt.NDArray:
+def drifting(T: int, bases: list, seed: int) -> npt.NDArray: # TO BE IMPLEMENTED
     pass
 
 def plot(traffic: npt.NDArray, capInSeperate: bool = False, capInTotal: bool = True):
@@ -117,22 +117,6 @@ def plot(traffic: npt.NDArray, capInSeperate: bool = False, capInTotal: bool = T
 
 def draw():
     plt.show()
-
-##############
-# TO BE ADDED
-# traffic_intensity parameter
-# values will be:               "low"   |   "medium"    |   "high"
-# mean traffic load would be:    0.5    |     0.75      |    0.90
-#
-# meaning a function to generate traffic baselines procedurally is necessary in the future for the research.
-# e.g. everyday load is "medium" so the function will take the slice amount 4 and generate [0.3, 0.13, 0.22, 0.1]
-# total steady baseline is 0.75 in this case
-# possible solution:
-# 1) 0.75 - rand(max=0.75 - some arbitrary epsilon) -> push to bases
-# 2) 0.75 - bases[0] - rand(...) -> push to bases
-# 3) 0.75 - bases[1] - bases[0] - rand(...) -> push to bases
-# ...) and so on
-##############
 
 if __name__ == "__main__":
     bases = [0.15, 0.3, 0.2, 0.1]
