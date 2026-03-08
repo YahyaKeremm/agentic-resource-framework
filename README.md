@@ -20,7 +20,7 @@ At each discrete timestep `t`, we have:
 - agent selects a discrete action `u(t)` based on `s(t)`
 - adapter updates allocation incrementally: `a(t+1) = Projection(a(t) + Δa(u(t)))`
 
-We follow **incremental control (B-model)**:
+We follow **incremental control**:
 - the agent does **not** output the full allocation directly
 - the agent outputs **an action** that implies a bounded update step (e.g., +5% to slice k)
 
