@@ -33,8 +33,25 @@ We start with `N = 3` canonical slices:
 
 Each slice can have different QoS targets (slice-specific delay thresholds).
 
+## System Architecture Diagram
+The framework follows a closed-loop control architecture where the decision dynamically adapts slice resource allocations based on symbolic network state representations.
+
+![System Architecture](docs/architecture.jpg)
+
 ## Repository Structure
-- TBD
+```
+agentic-resource-framework/
+├───configs/
+├───docs/
+└───src/
+    ├───abstraction/
+    ├───adapter/
+    ├───agent/
+    ├───environment/
+    ├───eval/
+    ├───traffic/
+    └───utils/
+```
 
 ## Planned Milestones
 
