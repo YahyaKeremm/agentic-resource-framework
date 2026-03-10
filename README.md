@@ -74,3 +74,17 @@ agentic-resource-framework/
   3. Run the demo experiment
  
   (Will be filled after the first runnable pipeline is committed.)
+
+
+## License
+
+This project is released under the **Agentic Resource Framework Academic Research License (ARF-ARL)**.
+
+The software is source-available for **academic research, educational use,
+and personal study only**.
+
+Commercial use, integration into commercial products, or deployment as a
+hosted or managed service is **not permitted** without explicit written
+permission from the author.
+
+See `LICENSE` for full terms.
