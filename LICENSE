@@ -1,16 +1,26 @@
-MIT License
+Agentic Resource Framework
+Academic Research License (ARF-ARL)
 
-Copyright (c) 2026 YahyaKeremm
+Copyright (c) 2026 Yahya Kerem (YahyaKeremm)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This software is provided for academic research, educational use,
+and personal study only.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Permission is granted to view, use, copy, modify, and distribute
+this software for the purposes stated above, provided that proper attribution
+is given to the original author.
+
+The following uses are strictly prohibited without explicit written permission
+from the author:
+
+• Any commercial use
+• Integration into commercial products or services
+• Providing the software or modified versions as a hosted or managed service
+• Public, organizational, or institutional deployment outside academic research
+• Any use intended to generate revenue, funding, donations, or other financial benefit
+
+Any distributed copies or modified versions must include this license
+and retain attribution to the original author.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
